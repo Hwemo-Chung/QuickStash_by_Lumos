@@ -1,0 +1,7 @@
+{
+  "enabledMcpjsonServers": [
+    "serena",
+    "testsprite"
+  ],
+  "enableAllProjectMcpServers": true
+}

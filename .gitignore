@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# IDE
+.DS_Store
+*.local
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Environment
+.env
+.env.*
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage and results
+coverage/
+.nyc_output/
+test-results/
+junit.xml
+vitest.config.ts.timestamp*
+
+# Documentation (개인 작업 문서)
+CLAUDE.md
+session-*.md
+docs/plans/
+*.md
+.docs/
+
+# 임시 파일
+*.tmp
+*.bak
+
+# OS files
+Thumbs.db
+ehthumbs.db
+.turbo/
+
+# Build cache
+.cache/
+.parcel-cache
+.turbo/
+.next/
+.nuxt/
+
+# PWA
+sw.js
+workbox-*.js
